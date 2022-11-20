@@ -1,0 +1,85 @@
+.profile {
+    background-color: rgb(255, 228, 196);
+    margin-top: 20px;
+    width: 350px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 500ms;
+    cursor: pointer;
+}
+.profile:hover{
+    transform: scale(1.05);
+}
+
+.avatar {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(163, 42, 42);
+}
+
+.description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(163, 42, 42);
+    border-radius: 5px;
+    width: 350px;
+    
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Roboto';
+    margin-bottom: 5px;
+
+}
+
+
+.tag {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(60, 50, 50);
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: rgb(60, 50, 50);
+    margin-bottom: 10px;
+}
+
+.stats {
+    display: flex;
+    width: 350px;
+    border-top: 1px solid rgb(175, 100, 5);
+    justify-content: space-around;
+padding-top: 10px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: rgb(8, 95, 95);
+    font-style: italic;
+}
+
+.quantity {
+    
+    display: flex;
+    flex-direction: column;
+    color: rgb(161, 77, 65);
+}

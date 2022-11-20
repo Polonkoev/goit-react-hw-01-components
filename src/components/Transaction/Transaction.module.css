@@ -1,0 +1,48 @@
+.transaction_history {
+    background-color: rgb(255, 228, 196);
+    margin-top: 50px;
+    width: 350px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 500ms;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.transaction_history:hover {
+    transform: scale(1.05);
+}
+
+
+
+.name {
+    font-style: italic;
+    font-family: 'Roboto';
+    border-bottom: 1px solid rgb(163, 42, 42);
+    padding-bottom: 10px;
+
+}
+
+
+
+.type {
+    text-align: center;
+    color: rgb(8, 95, 95);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.amount {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.currency {
+    text-align: center;
+    color: rgb(161, 77, 65);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
